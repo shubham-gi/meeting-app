@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const Recordings = () => {
   return (
     <section className='flex flex-col size-full text-white gap-10'>
-        <div className='h-[300px] rounded-[20px] backgroundImage-hero'></div>
+        <h1 className='text-3xl font-bold'>Recordings</h1>
     </section>
   )
 }
 
-export default Home
+export default Recordings
