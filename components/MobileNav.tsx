@@ -37,7 +37,7 @@ const MobileNav = () => {
                             className='max-sm:size-10'
                         />
                         <p className='text-[26px]  font-extrabold text-white'>
-                            Meeting's App
+                            Meetings App
                         </p>
                     </Link>
                     <div className='h-[calc(100vh-72px)] flex flex-col justify-between overflow-y-auto'>
