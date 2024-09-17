@@ -12,11 +12,13 @@ interface MeetingModalProps {
     title: string,
     isOpen: boolean,
     className?: string,
-    buttonText: string,
+    buttonText?: string,
     onClose: () => void,
     handleClick?: () => void,
     children?: ReactNode,
+    instantMeeting?: boolean;
     image?: string,
+    buttonClassName?: string;
     buttonIcon?: string
 }
 const MeetingModal = ({ title,
